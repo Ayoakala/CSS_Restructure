@@ -1,0 +1,437 @@
+﻿@media print {
+
+div.content2015:nth-of-type(2) {
+	width : 7in;
+	page-break-after: auto;
+	}
+div.content2015 {
+	width : 7in;
+	
+	margin: 5px 5px 5px 5px;		
+	}
+img { 
+	max-width: 500px !important; }
+p { 
+	widows: 4; 
+	orphans: 4; 
+	}
+#vtabs2015ID{
+	display : none;
+	left : -175px;
+	}
+div.consumer {
+	margin: 0px 0px 0px 0px;
+}
+tr   { 
+	page-break-inside:avoid; 
+	page-break-after:auto;
+	}
+}
+@page {
+  margin:.5in;
+}
+div.consumer {
+	margin: 0px 0px 0px 180px;
+}
+div.content2015 {
+	background-color: #ffffff;
+	padding-left: 7px;
+	padding-right: 7px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	margin: 5px 5px 5px 25px;
+	border-top: 1px solid #999999;
+	border-bottom: 1px solid #999999;
+	border-right: 1px solid #999999;
+	border-left: 1px solid #999999;
+	font: 12px  verdana, arial, sans-serif;
+}
+div.content2015 >* {
+	margin: 0px 0px 10px 25px;
+
+}
+div.content2015 p {
+	font: 12px  verdana, arial, sans-serif;
+}
+
+/*indents for lists still aren't working. need to try something else.  possibly adding parent containers to the selector. All the KB is inside a table with the class="htmlDetailElementTable" Inside a cell in that table is a div with the class="sfdc_richtext" */
+
+div.content2015 > ul {
+	list-style-type: disc;
+	margin: 0px 0px 5px 25px;
+		font-size: 18px;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+
+}
+div.content2015 > ul ul {list-style-type: square;}
+div.content2015 > ul ul ul {list-style-type: circle;}
+
+div.content2015 > ol {
+	list-style-type: decimal;
+	margin: 0px 0px 5px 25px;
+	font-size: 18px;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+
+}
+div.content2015 > ol ol {list-style-type: lower-alpha;}
+div.content2015 > ol ol ol{list-style-type: lower-roman;}
+
+/*need to add handler for lists in tables */
+
+div.content2015 span.note{
+	width : 75%;
+	display : block;
+	background-color: #fff200;
+	border : 1px fine black;
+	color : black;
+	margin: 10px 0px 10px 50px;
+	padding : 7px 7px 7px 7px;
+	font-weight : bold;
+	border : 1px solid #000000;
+
+}
+div.content2015 span.note::before{
+	content : "NOTE:";
+}
+div.content2015 img {
+	margin: 10px 5px 10px 10px;
+}
+
+div.content2015 h1{
+	color : #0C50A0;
+	margin: 0px 5px 8px 0px;
+	padding-left: 5px;
+	padding-right: 170px;
+	padding-bottom: 15px;
+	padding-top: 0px;
+	background-image: url("HughesNet_MASTER_RGB.png");
+	background-repeat: no-repeat;
+    background-position: 100% 0%;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;}
+
+div.content2015 h2{	
+	color : #0C50A0;
+	margin: 2px 0px 10px 7px;
+	padding-left: 3px;
+	padding-right: 5px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	font-size: 22px;
+	font-weight: bold;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+div.content2015 h3{	
+	margin: 2px 0px 10px 7px;
+	padding-left: 3px;
+	padding-right: 5px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+div.content2015 p{	
+	margin: 2px 0px 10px 7px;
+	padding-left: 3px;
+	padding-right: 5px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	font-size: 18px;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+div.content2015:nth-child(2){
+	counter-reset: sections -1;
+
+}
+div.content2015 {
+	counter-increment : sections;
+}
+div.content2015 h2::before{
+	content : counter(sections)". ";
+}
+div.content2015 table.layout{
+	margin: 5px 25px 10px 25px;
+    border: 0px hidden white;
+
+}
+div.content2015 table.layout td{
+    border: 0px hidden white;
+
+}
+div.content2015 table.layout > tr:first-of-type  td{
+	background-color : white;
+	border: 0px hidden white;
+	color: black;
+	}
+div.content2015 table.layout tbody  > tr:first-of-type  td{
+	background-color : white;
+	border: 0px hidden white;
+	color: black;
+	
+	}		
+div.content2015 table.layout tbody > tr:first-of-type  td{
+	background-color : white;
+	border: 0px hidden white;
+	color: black;
+}
+
+div.content2015 table {
+	margin: 5px 0px 10px 25px;
+    border: 1px solid black;
+	border-collapse: collapse;
+	width : 90%;
+	padding-left: 3px;
+	padding-right: 5px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	font-size: 18px;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+div.content2015 table thead tr th {
+	background-color : #0C50A0;
+}
+div.content2015 table tbody > tr:first-of-type  td{
+	background-color : #003366;
+}
+div.content2015 table thead+ tbody > tr:first-of-type  td{
+	background-color : #ffffff;
+}
+div.content2015 table.miniTOC {
+	margin: 5px 0px 5px 25px;
+	min-width : 30%;
+	max-width : 65%;
+	}
+div.content2015 table.miniTOC  tbody tr td  a:link{
+	color: blue;
+	text-decoration : none;
+}
+div.content2015 table.miniTOC  tbody tr td  a:visited{
+	color: purple;
+}
+div.content2015 table.miniTOC  tbody tr td  a:hover{
+	color: blue;
+	text-decoration: underline;
+}
+div.content2015 table.miniTOC  tbody tr td  a:visited:hover{
+	color: purple;
+	text-decoration: underline;
+}
+div.content2015 table.miniTOC  tbody tr:first-of-type td::Before{
+	content: "Table of Contents";
+}
+div.content2015 table.miniTOC  tbody tr:first-of-type td{
+	height: 10px;
+	padding: 5px 0px 5px 5px;
+}
+div.content2015 table.miniTOC td{
+	padding: 10px 0px 10px 5px;
+}
+div.content2015 table.miniTOC tbody tr:first-of-type {
+	margin: 0px 0px 10px 0px;
+    border: 1px solid black;
+	font: 14px  verdana, arial, sans-serif;
+}
+div.content2015 table.miniTOC tbody tr:nth-child(2){
+	background-color : #e4e4e4;
+}
+div.content2015 table tbody tr:first-of-type td{
+    border: 1px solid black;
+	color : white;
+	font-weight : bold;
+}
+div.content2015 table >li,ul,ol{
+	margin: 0px 0px 0px -20px;
+	padding-left: 3px;
+	padding-right: 5px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	font-size: 18px;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+
+}
+div.content2015 td{
+    border: 1px solid black;
+	padding : 4px 4px 4px 4px;
+	vertical-align : top;
+}
+div.content2015  th{
+    border: 1px solid black;
+	color : white;
+	padding : 4px 4px 4px 4px;	
+}
+
+div.content2015 table.step-action {
+	counter-reset : steps-head;
+}
+div.content2015 table.step-action-no-head {
+	counter-reset : steps;
+}
+/*This section handles numbering and formatting for step action tables when they have a thead tag*/
+div.content2015 table.step-action thead th:first-of-type::before{
+	content : "Step";
+}
+div.content2015 table.step-action thead  th:last-child::before{
+	content : "Action";
+}
+div.content2015 table.step-action tbody tr td:first-of-type::before{
+	counter-increment : steps-head;
+	content : counter(steps-head);
+}
+div.content2015 table.step-action thead th{
+	text-align : left;
+}
+div.content2015 table.step-action  tbody tr td:first-of-type{
+	width: 5%;
+	text-align : center;
+	}
+div.content2015 table.step-action thead~ tbody  tr:first-of-type {	
+	width : 5%;
+	vertical-align : top;
+	background-color : white;
+	color : black;
+	font-weight : normal;
+	}
+div.content2015 table.step-action thead ~tbody  td:first-of-type {
+	width : 5%;
+	vertical-align : top;
+	background-color : white;
+	color : black;
+	font-weight : bold;
+	background-color : #b2c9f6;
+}
+div.content2015 table.step-action thead ~tbody  td:last-of-type {
+	vertical-align : top;
+	background-color : white;
+	color : black;
+	font-weight : normal;
+}
+div.content2015 table.step-action thead ~ tbody tr:first-of-type td:last-child::Before{
+	content : "";
+}
+/*this section handles the numbering and formatting for step action tables without a thead*/
+div.content2015 table.step-action-no-head  tbody tr:first-of-type td:first-of-type::Before{
+	content : "Step";
+}
+div.content2015 table.step-action-no-head tbody tr:first-of-type td:last-child::Before{
+	content : "Action";
+}
+div.content2015 table.step-action-no-head tbody tr:nth-child(2) td:first-of-type::before{
+	counter-increment : steps;
+	content : counter(steps);
+}
+div.content2015 table.step-action-no-head tbody tr:nth-child(2) ~ tr td:first-of-type::before{
+	counter-increment : steps;
+	content : counter(steps);
+}
+div.content2015 table.step-action-no-head + tbody tr td{
+	text-align : left;
+	
+}
+div.content2015 table.step-action-no-head + tbody  tr:first-of-type {	
+	width : 5%;
+	vertical-align : top;
+	background-color : white;
+	color : black;
+	font-weight : normal;
+	}
+div.content2015 table.step-action-no-head tbody tr:first-of-type ~tr  td:first-of-type {
+	width : 5%;
+	vertical-align : top;
+	background-color : white;
+	color : black;
+	font-weight : bold;
+	background-color : #b2c9f6;
+	text-align : center;
+}
+#vtabs2015ID{
+    position: fixed; 
+	width: 200px; 
+	left : -175px;
+	Top : 0px;
+	background-image: url("menupic.png");
+	background-repeat: no-repeat;
+    background-position: right top;
+	background-color : #0C50A0;
+	border-bottom: 1px solid #ffffff;
+	border-top: 1px solid #ffffff;
+}
+#vtabs2015ID:hover{
+    position: fixed; 
+	left : 0px;
+}
+/*need to add more margin on top to accomodate header rows from salesforce*/
+div.consumer #vtabs2015ID{
+	left : 0px;
+}
+/*Start of MozTOC automation */
+#mozToc {
+	left: 0; 
+	width: 170px; 
+	min-width: 170px;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	display : block;
+	float : left;
+	font: 11px verdana, Arial, sans-serif;
+	border-right: 1px solid #ffffff;
+}
+
+#mozToc li ul{
+	margin: 0px, 0px, 0px, 5px;
+	padding : 0px;
+}
+
+#mozToc  ul {
+	margin: 0px;
+	padding : 0px;
+}
+
+#mozToc  li {
+	background-color : #003366;
+	list-style-type : none;
+	margin: 0px;
+	border-left: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+	min-height:20px;
+	display: block;
+	color: white;
+}
+#mozToc  li:first-child {
+	border-top: 1px solid #ffffff;
+}
+#mozToc  li:last-child{
+	border-bottom: 1px solid #ffffff;
+}
+#mozToc a {
+	display : block;
+	padding-left: 7px;
+	padding-right: 5px;
+	padding-bottom: 7px;
+	padding-top: 7px;
+	min-height:20px;
+}
+#mozToc  a:hover {
+	background-color : #b2c9f6;
+}
+#vtabs2015ID  a:link{
+	color: white;
+	text-decoration : none;
+	}
+#mozToc a:visited{
+	color: silver;
+	text-decoration : none;
+	}
+#mozToc a:active{
+	color: white;
+	text-decoration : none;
+	}
+#mozToc a:hover{
+	color: white;
+	text-decoration : none;
+}
+

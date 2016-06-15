@@ -1,0 +1,1118 @@
+﻿
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+<link rel="stylesheet" type="text/css" href="barebonesKB.css"><title>Knowledge Base Template and Instructions Guide</title>
+
+
+
+<div id="vtabs2015ID">
+<ul id="mozToc">
+	<li><a href="#mozTocId762365">WiFi Service Overview</a>
+
+	<ul>
+		<li><a href="#mozTocId332813">About Hughes Wi-Fi Services</a></li>
+		<li><a href="#equipment">Wi-Fi Equipment</a></li>
+		<li><a href="#processes">Wi-Fi Processes</a></li>
+		<li><a href="#mozTocId631874">Basic Troubleshooting</a></li>
+		<li><a href="#mozTocId238083">Customer Specific Wi-Fi Support</a></li>
+		<li><a href="#mozTocId377868">FAQ</a></li>
+		<li><a href="#mozTocId296908">Revision History </a></li>
+	</ul>
+	</li>
+</ul>
+</div>
+
+<div class="content2015">
+<h1><a class="mozTocH1" name="mozTocId762365"></a>Wi-Fi Service</h1>
+
+	<form action="http://www.example.com/search.php">
+	<input type="text" name="search" style="width:500px" value="Quick Find">
+	<input type="submit" value="Search">
+	</form>
+
+<p>This article provides information about the Hughes Wi-Fi Service.</p>
+</div>
+
+<div class="content2015">
+<h2><a class="mozTocH2" name="mozTocId332813"></a>About Hughes Wi-Fi Services</h2>
+
+<p><strong>Hughes offers three varieties of WiFi Services via Aruba products:</strong></p>
+
+<ul>
+	<li><strong>WiFi 1.0</strong> has Access Point (AP-93) at Site or location. Most sites have 1 AP-93. Some Sites have up to 3 AP-93 units (e.g., Bevmo).</li>
+	<li><strong>Hospitality WiFi</strong> is used in scenarios where there are multiple access points and in many cases multiple floors (for instance Best Western)</li>
+	<li><strong>WiFi 2.0</strong> has multiple Instant Access Points aka IAP-105 or IAP-103 at site. Starting 11/17/14 sites with the IAP-105 device may be replaced with the IAP-103 (provides the same functionality).</li>
+</ul>
+
+<h3>Related Wi-Fi KBs</h3>
+
+<p><a href="/articles/KB/AirWave-Wireless-Management-System-AWMS-Tool-Guide?anonymousBody=%2F%2FQuery+all+Draft+KBs%0AList%3CKB__Kav%3E+draftkbs+%3D+%5Bselect+id%2C+KNOWLEDGEARTICLEID+from+KB__Kav+where+language+%3D+%27en_US%27+and+PublishStatus+%3D+%27Draft%27+%5D%3B%0ASet%3CId%3EdraftKBIds+%3D+new+Set%3CId%3E%28%29%3B%0A+%0A%2F%2FAdd+the+master+article+id+%28KnowledgeArticleId%29+to+this+set.%0Afor%28KB__kav+kb%3Adraftkbs%29%7B%0A++++draftkbids.add%28kb.KNOWLEDGEARTICLEID%29%3B+%0A%7D%0A+%0A%2F%2FQuery+for+all+Published+%28Online%29+KB+articles+that+DON%E2%80%99T+HAVE+a+draft+KB%0AList%3CKB__Kav%3E+onlinekbs+%3D+%5Bselect+id%2C+KNOWLEDGEARTICLEID+from+KB__Kav+where+language+%3D+%27en_US%27+and+PublishStatus+%3D+%27Online%27+and+KNOWLEDGEARTICLEID+NOT+IN+%3Adraftkbids+limit+100%5D%3B%0A+%0A%2F%2FCreate+a+draft+KB+for+each+article+in+the+query%0Afor%28KB__kav+mykb%3Aonlinekbs%29%7B%0A+++++++++KbManagement.PublishingService.editOnlineArticle%28mykb.KNOWLEDGEARTICLEID%2C+false%29%3B++%0A%7D&amp;_=1459959320331" target="_blank">AirWave Wireless Management System (AWMS) Tool Guide</a><br />
+<a href="/articles/KB/AP-93-AP-105-103-System-Guide?id=kAC30000000GmtG&amp;anonymousBody=%2F%2FQuery+all+Draft+KBs%0AList%3CKB__Kav%3E+draftkbs+%3D+%5Bselect+id%2C+KNOWLEDGEARTICLEID+from+KB__Kav+where+language+%3D+%27en_US%27+and+PublishStatus+%3D+%27Draft%27+%5D%3B%0ASet%3CId%3EdraftKBIds+%3D+new+Set%3CId%3E%28%29%3B%0A+%0A%2F%2FAdd+the+master+article+id+%28KnowledgeArticleId%29+to+this+set.%0Afor%28KB__kav+kb%3Adraftkbs%29%7B%0A++++draftkbids.add%28kb.KNOWLEDGEARTICLEID%29%3B+%0A%7D%0A+%0A%2F%2FQuery+for+all+Published+%28Online%29+KB+articles+that+DON%E2%80%99T+HAVE+a+draft+KB%0AList%3CKB__Kav%3E+onlinekbs+%3D+%5Bselect+id%2C+KNOWLEDGEARTICLEID+from+KB__Kav+where+language+%3D+%27en_US%27+and+PublishStatus+%3D+%27Online%27+and+KNOWLEDGEARTICLEID+NOT+IN+%3Adraftkbids+limit+100%5D%3B%0A+%0A%2F%2FCreate+a+draft+KB+for+each+article+in+the+query%0Afor%28KB__kav+mykb%3Aonlinekbs%29%7B%0A+++++++++KbManagement.PublishingService.editOnlineArticle%28mykb.KNOWLEDGEARTICLEID%2C+false%29%3B++%0A%7D&amp;_=1459959320331&amp;isdtp=vw" target="_blank">AP-93 and AP-105/103 System Guide</a><br />
+<a href="/articles/KB/Guest-Wi-Fi-Troubleshooting?id=kAC30000000GmtQ&amp;anonymousBody=%2F%2FQuery+all+Draft+KBs%0AList%3CKB__Kav%3E+draftkbs+%3D+%5Bselect+id%2C+KNOWLEDGEARTICLEID+from+KB__Kav+where+language+%3D+%27en_US%27+and+PublishStatus+%3D+%27Draft%27+%5D%3B%0ASet%3CId%3EdraftKBIds+%3D+new+Set%3CId%3E%28%29%3B%0A+%0A%2F%2FAdd+the+master+article+id+%28KnowledgeArticleId%29+to+this+set.%0Afor%28KB__kav+kb%3Adraftkbs%29%7B%0A++++draftkbids.add%28kb.KNOWLEDGEARTICLEID%29%3B+%0A%7D%0A+%0A%2F%2FQuery+for+all+Published+%28Online%29+KB+articles+that+DON%E2%80%99T+HAVE+a+draft+KB%0AList%3CKB__Kav%3E+onlinekbs+%3D+%5Bselect+id%2C+KNOWLEDGEARTICLEID+from+KB__Kav+where+language+%3D+%27en_US%27+and+PublishStatus+%3D+%27Online%27+and+KNOWLEDGEARTICLEID+NOT+IN+%3Adraftkbids+limit+100%5D%3B%0A+%0A%2F%2FCreate+a+draft+KB+for+each+article+in+the+query%0Afor%28KB__kav+mykb%3Aonlinekbs%29%7B%0A+++++++++KbManagement.PublishingService.editOnlineArticle%28mykb.KNOWLEDGEARTICLEID%2C+false%29%3B++%0A%7D&amp;_=1459959320331&amp;isdtp=vw" target="_blank">Guest Wi-Fi Support and Troubleshooting</a></p>
+
+<h3>Network Diagrams</h3>
+
+<table border="1" cellpadding="2" cellspacing="2" style="text-align: left; width: 75%;">
+	<tbody>
+		<tr>
+			<td colspan="1" rowspan="1">Service</td>
+			<td align="undefined" colspan="1" rowspan="1" valign="undefined">Description</td>
+			<td align="undefined" colspan="1" rowspan="1" valign="undefined">Image</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1" style="font-weight: bold;">Wi-Fi 1.0</td>
+			<td colspan="1" rowspan="1">
+			<ul>
+				<li>Wireless connection to AP for internet connectivity.</li>
+				<li>AP connects to a Power Injector and then Aruba controller using the transport&#39;s secure connection.</li>
+				<li>Aruba controller provides to the APs configuration/software for connection to the internet.</li>
+				<li>More than one AP may be connected to the controller.</li>
+			</ul>
+			</td>
+			<td colspan="1" rowspan="1"><img alt="WiFi Service Overview WiFi 1.0 Network Diagram" src="/servlet/servlet.FileDownload?file=01530000003FHND" /></td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1" style="font-weight: bold;">Hospitality Guest WiFi Services (Aruba)</td>
+			<td colspan="1" rowspan="1">The Aruba 650 Remote Node and associated Cisco 300 Switch can be located in different telco/closets on various floors.<br />
+			<br />
+			Not all equipment will be located together due to cable run limitations.</td>
+			<td colspan="1" rowspan="1"><img alt="WiFi Service Overview Aruba Network Diagram" src="/servlet/servlet.FileDownload?file=01530000003FHNN" /></td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1" style="font-weight: bold;">Wi-Fi 2.0</td>
+			<td colspan="1" rowspan="1">
+			<ul>
+				<li>Wireless connection to IAP for internet connectivity.</li>
+				<li>AP connects to PoE capable switch then to an Aruba virtual controller (on one of the IAPs.</li>
+				<li>Aruba Virtual controller provides configuration / software to the AP to for successful connection to internet.</li>
+			</ul>
+			<strong>Transport</strong>
+
+			<ul>
+				<li>Hughes or Customer-provided.</li>
+				<li><strong>HR4700</strong> (or <strong>Fortigate 60C</strong>) as the <strong>CPE/Router.</strong></li>
+				<li>Optional <strong>Cisco 300 Switch for</strong> more than <strong>4 APs</strong>.</li>
+			</ul>
+			<strong>Virtual Controller</strong>
+
+			<ul>
+				<li>Active <strong>IAP-105 </strong>may be designated as <strong>virtual controlle</strong>r for the other IAP-105 devices.<strong> </strong></li>
+				<li><strong>If IAP-105 goes down, </strong>next available IAP device will act as virtual controller by AWMS allowing for IAPs to run independently without connectivity to Hughes NOC.</li>
+			</ul>
+			</td>
+			<td colspan="1" rowspan="1"><img alt="WiFi Service Overview WiFi 2.0 Network Diagram" src="/servlet/servlet.FileDownload?file=01530000003FHNI" /></td>
+		</tr>
+	</tbody>
+</table>
+
+<p>**Transport for Wi-Fi Service must be either DSL/Cable/T1. If the site is a HAN and the secondary transport is EVDO or VSAT the Wi-Fi service will not work properly.</p>
+
+<h3>Rogue Services</h3>
+
+<p>Hughes Enterprise WiFi customers have the option of PCI Rogue Wireless Detection. Our services providescanning as well as optional Rogue Classification for devices that are attempting to access the customer&#39;s network.</p>
+
+<ul>
+	<li><strong>Rogue Scanning only provides the identification of possible intrusions to the Wi-Fi network</strong><br />
+	All Enterprise Wi-Fi networks are scanned for possible rogue devices intruding on the Wi-Fi network. An email notification is generated and sent to the network administrator detailing the <strong>MAC</strong> address and other information on the device in question.</li>
+</ul>
+
+<ul>
+	<li><strong>Optional Rogue Classification allows for the customer to identify the device to the Wi-Fi network</strong><br />
+	When the email notification of a possible intrusion, is received the network administrator will determine whether the device is rogue or a valid network device.<strong> </strong></li>
+</ul>
+</div>
+
+<div class="content2015">
+<h2><a class="mozTocH2" name="equipment"></a>WiFi Equipment</h2>
+
+<h3><a name="hughes_supplied_equipment"></a>Hughes-Supplied Equipment</h3>
+
+<table border="1" cellpadding="2" cellspacing="2" style="text-align: left; width: 65%;">
+	<tbody>
+		<tr>
+			<td colspan="1" rowspan="1" style="text-align: center;" valign="top"><strong>Part Number</strong></td>
+			<td colspan="1" rowspan="1" style="text-align: center;"><strong>Equipment</strong></td>
+			<td colspan="1" rowspan="1" style="text-align: center;"><strong>Image</strong></td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1" style="width: 150px;" valign="top">1502992-0001</td>
+			<td colspan="1" rowspan="1">Aruba 93 Access Point (AP)</td>
+			<td colspan="1" rowspan="1"><img alt="WiFi Service Overview Aruba 93 Access Point 1" src="/servlet/servlet.FileDownload?file=01530000003FHNX" /> <img alt="WiFi SRV Aruba 93 Access Point 2" src="/servlet/servlet.FileDownload?file=01530000003FHNc" /></td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1" style="width: 150px;" valign="top">1502992-0015</td>
+			<td colspan="1" rowspan="1">Aruba 103 Access Point (AP)</td>
+			<td colspan="1" rowspan="1"><img alt="WiFi Service Overview Aruba 103 Access Point" src="/servlet/servlet.FileDownload?file=01530000003FHNh" /></td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1" style="width: 150px;" valign="top">1502992-0012</td>
+			<td colspan="1" rowspan="1">Aruba 105 Access Point (AP)</td>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1" style="width: 150px;" valign="top">1502992-0009 or 1502992-0010</td>
+			<td colspan="1" rowspan="1">PowerDsine POE PD-3501-AC</td>
+			<td colspan="1" rowspan="1"><img alt="WiFi Service OverviewPowerDsine AC" src="/servlet/servlet.FileDownload?file=01530000003FHNw" /></td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1" style="width: 150px;" valign="top">1502992-0002</td>
+			<td colspan="1" rowspan="1">Aruba 93 Access Point Wall/Ceiling mount</td>
+			<td colspan="1" rowspan="1"><img alt="WiFi Service Overview Aruba 93 Mount 1" src="/servlet/servlet.FileDownload?file=01530000003FHO1" /> <img alt="WiFi Service Overview Aruba 93 Mount 2" src="/servlet/servlet.FileDownload?file=01530000003FHOB" /></td>
+		</tr>
+		<tr>
+			<td colspan="1" height="29" rowspan="1" style="width: 150px;" valign="top">1500653-6006</td>
+			<td colspan="1" rowspan="1">Blue 6-foot Cat 5e straight-through LAN cable</td>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1" style="width: 150px;" valign="top">1500653-6050</td>
+			<td colspan="1" rowspan="1">Blue 50-foot Cat 5e straight-through LAN cable</td>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div class="content2015">
+<h2><a class="mozTocH2" name="processes"></a>Wi-Fi Processes</h2>
+
+<table class="miniTOC">
+	<tbody>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1"><a href="#CreatingWiFiTicket">Creating a Wi-Fi Ticket</a><br />
+			<a href="#LocateWiFi">Locating a Wi-Fi Site in CRM</a><br />
+			<a href="#Documenting">Documentation of a Wi-Fi Case</a></td>
+		</tr>
+	</tbody>
+</table>
+
+<h3><a name="CreatingWiFiTicket"></a>Creating a Wi-Fi Ticket</h3>
+
+<p><strong>Case Type:</strong> Guest WiFi<br />
+<strong>Problem Type:</strong> Ent Tech Support<br />
+<strong>Area: </strong>Guest WiFi<br />
+<strong>Detail:</strong> What customer has communicated</p>
+
+<h3><strong><a name="LocateWiFi"></a>Locate WiFi Site IDs in CRM</strong></h3>
+
+<ul>
+	<li>L<span style="font-weight: bold;">ocate the </span><strong style="font-weight: bold;">Site ID</strong><span style="font-weight: bold;"> of the WiFi devices</span>: Enter the <strong style="font-weight: normal;">SAN/HNS Site/Device ID</strong> or <strong style="font-weight: normal;">Customer Device ID</strong> and <strong style="font-weight: normal;">Site Type </strong>with the option <strong style="font-weight: normal;">begins with</strong> <strong style="font-weight: normal;">WiFi</strong>.</li>
+	<li><span style="font-weight: bold;">Virtual Controller:</span> The <strong style="font-weight: normal;">Site ID</strong> with adapter model<strong style="font-weight: normal;">ARUBA-WIFI-IAP10.VC</strong> denotes the virtual controller.</li>
+</ul>
+
+<h3><strong><a name="Documenting"></a>Documenting a Wi-Fi Case in CRM </strong></h3>
+
+<table border="1" cellpadding="2" cellspacing="2" style="text-align: left; width: 90%;">
+	<tbody>
+		<tr>
+			<td colspan="1" rowspan="1" valign="top">Unit</td>
+			<td colspan="1" rowspan="1" valign="top">Site Type</td>
+			<td colspan="1" rowspan="1">Adapter Model</td>
+			<td colspan="1" rowspan="1" valign="top">Notes</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1" valign="top"><strong>Cisco 300</strong></td>
+			<td colspan="1" rowspan="1" valign="top">Appliance</td>
+			<td colspan="1" rowspan="1">Cisco 300</td>
+			<td colspan="1" rowspan="1" valign="top">&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1" valign="top"><strong>IAP-105</strong></td>
+			<td colspan="1" rowspan="1" valign="top">WiFi</td>
+			<td colspan="1" rowspan="1">ARUBA IAP105 VC</td>
+			<td colspan="1" rowspan="1" valign="top">Elected Virtual Controller. This is not a physical device.</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1" valign="top"><strong>IAP-105</strong></td>
+			<td colspan="1" rowspan="1" valign="top">WiFi</td>
+			<td colspan="1" rowspan="1">ARUBA IAP105</td>
+			<td colspan="1" rowspan="1" valign="top">Wireless Access Point IAP -105</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1" valign="top"><strong>IAP-103</strong></td>
+			<td colspan="1" rowspan="1" valign="top">WiFi</td>
+			<td colspan="1" rowspan="1">ARUBA IAP103</td>
+			<td colspan="1" rowspan="1" valign="top">Wireless Access Point IAP -103</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1" valign="top">Network routing device</td>
+			<td colspan="1" rowspan="1" valign="top">&nbsp;</td>
+			<td colspan="1" rowspan="1">Examples are Fortigate 60C, HR4700</td>
+			<td colspan="1" rowspan="1" valign="top">Install attachments such as Floor Plan, Heat map, Order guide and Photos are attached to this Site.</td>
+		</tr>
+		<tr>
+			<td colspan="4" rowspan="1" valign="top">
+			<p><strong>Note</strong>: Customers may have different site ID schemacheck for Site type and adapter model.</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><a href="#CreatingWiFiTicket">Back to Top</a></p>
+
+<p><strong>Case Documentation </strong>-<strong>Troubleshooting with a WiFi Guest with their Device</strong></p>
+
+<table border="1" cellpadding="2" cellspacing="2" class="step-action" style="width: 90%;">
+	<thead>
+		<tr>
+			<th colspan="1" rowspan="1">&nbsp;</th>
+			<th colspan="1" rowspan="1">&nbsp;</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+			<td colspan="1" rowspan="1">Log into the CRM &gt; Identify the store and location where the customer is calling from. Caller may provide the SAN or the store address.</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+			<td colspan="1" rowspan="1">Identify the device /Access Point that is having an issue then select the right HNS Site ID/SAN.<strong> Note</strong>: WiFi sites will have site type as WiFi.</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+			<td colspan="1" rowspan="1">
+			<p>For WiFi 2.0 guests, there will be multiple access points. Document the case against the virtual controller. The <strong>Site ID</strong> that has adapter model<strong>ARUBA-WIFI-IAP105 VCA</strong> denotes the virtual controller.</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+			<td colspan="1" rowspan="1">Click on <strong>Add Case</strong>.</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+			<td colspan="1" rowspan="1">If the customer is reporting a Guest WiFi service issue, make the below selections. Ensure that the case is being recorded against the AP that is being investigated.<strong> Note</strong>: For WiFi sites the service type should be WiFi. The TAD should be set to Guest WiFi as follows.<br />
+			<img alt="WiFi Service Overview Problem Information" src="/servlet/servlet.FileDownload?file=01530000003FHOQ" /></td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+			<td colspan="1" rowspan="1">Case documentation should be completed as follows:<br />
+			<img alt="WiFi Service Overview Case Documentation" src="/servlet/servlet.FileDownload?file=01530000003FHOf" />
+			<ol>
+				<li>Navigate to <strong>Case Documentation</strong> section &gt;Choose <strong>Quick</strong>.<strong> Note</strong>: Enterprise Tier1 Guest WiFi.</li>
+				<li>Click <strong>Append</strong> &gt;Add data &gt;Click <strong>Add Note</strong> once data is entered.</li>
+			</ol>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><a href="#CreatingWiFiTicket">Back to Top</a></p>
+
+<div class="content2015">
+<h2><a class="mozTocH2" name="mozTocId631874"></a><a class="mozTocH2" name="BasicTSTop"></a>Basic Troubleshooting</h2>
+
+<table class="miniTOC">
+	<tbody>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1"><a href="#TSNMP">Troubleshooting Via NMP</a><br />
+			<a href="#GuestDeviceTS">Guest Device Troubleshooting</a><br />
+			<a href="#hospitality_services">Hospitality Service Support</a><br />
+			<a href="#rogue_services">Rogue Services</a><br />
+			<a href="#SSID">SSID/Passphrase Changes</a></td>
+		</tr>
+	</tbody>
+</table>
+
+<p><strong><a name="TSNMP"></a>Troubleshooting via Network Management Portal (NMP)</strong></p>
+
+<table border="1" cellpadding="2" cellspacing="2" class="step-action" style="width: 90%;">
+	<thead>
+		<tr>
+			<th colspan="1" rowspan="1">&nbsp;</th>
+			<th colspan="1" rowspan="1">&nbsp;</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+			<td colspan="1" rowspan="1">Check primary site&#39;s transport (line stats, speeds, etc.) and if issue is found troubleshoot accordingly</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+			<td colspan="1" rowspan="1">Go to AP device details.</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+			<td colspan="1" rowspan="1">Navigate to <b>Actions</b> section &gt; Click <b>Current Status</b> to Ping the AP device. A Pop-up window with results will appear.
+			<ul>
+				<li><b>Is Responding = False</b> indicates that the device is not responding in real time. Check physical connections. Go to <b>Step </b>3.</li>
+				<li><b>Is Responding = True</b> indicates that the device is responding in real time ping test. If AP&#39;s SNMP Uptime is less than 30 minutes, verify if an outage occurred (lost sync, etc.) recently. Note that AP recovery may take up to 45 minutes.</li>
+			</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+			<td colspan="1" rowspan="1">Navigate to <b>Performance Graphs</b> section. Click on <b>User Count</b> to see the data for last 2 hours.</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+			<td colspan="1" rowspan="1">If there are other Clients connected to the AP, the AP is functional. Troubleshoot the guest device.<br />
+			<img alt="WiFi SRV Client Count" src="/servlet/servlet.FileDownload?file=01530000003FHOk" /></td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+			<td colspan="1" rowspan="1">Click on <b>User Count</b> to see the data for last 2 hours. In the graph, identify if the usage has been constant. If not, there may be issues with the radio for the AP device.<br />
+			<img alt="WiFi Service Overview User Count" src="/servlet/servlet.FileDownload?file=01530000003FHOp" /></td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+			<td colspan="1" rowspan="1">If AP is <strong>down</strong>, check if LAN MAC address is listed in the router.
+			<ul>
+				<li>In <strong>NMP</strong> and pull up the router device.</li>
+				<li>Go to <strong>Actions</strong> menu &gt; Click <strong>Get Arp Cache</strong> to view ARP cache statistics.</li>
+			</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+			<td colspan="1" rowspan="1">If AP&#39;s MAC address <b>is listed </b>in ARP Cache and AP shows <b>down</b>, verify if an outage occurred (lost sync, etc.) - recover may take up to 45 minutes.</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+			<td colspan="1" rowspan="1">If AP&#39;s MAC address <b>is not </b>listed in the ARP Cache and physical connections were checked, create dispatch ticket.</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><a href="#BasicTSTop">Back to Top</a></p>
+
+<p><strong><a name="GuestDeviceTS"></a>Guest Device Troubleshooting</strong></p>
+
+<p><a href="#Android">Initial Steps<br />
+Troubleshooting with a WiFi guest with their device<br />
+Troubleshooting Not seeing Service with Device<br />
+Slow WiFi or dropped connections<br />
+Wi-Fi troubleshooting for Android phones</a></p>
+
+<p><a name="InitialSteps"></a><strong>Initial Troubleshooting Steps</strong></p>
+
+<table border="1" cellpadding="2" cellspacing="2" class="step-action" style="width: 90%;">
+	<thead>
+		<tr>
+			<th colspan="1" rowspan="1">&nbsp;</th>
+			<th colspan="1" rowspan="1">&nbsp;</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+			<td colspan="1" rowspan="1">Verify that the user is in a location where there is Network Signal Strength showing on the device.</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+			<td colspan="1" rowspan="1">Determine whether he or she connects regularly. If the user connects infrequently, troubleshoot the device settings first.</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+			<td colspan="1" rowspan="1">Login to AWMS. Check that he or she is connected to the AP.</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+			<td colspan="1" rowspan="1">Examine the AP association history for signs of ping-ponging.</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+			<td colspan="1" rowspan="1">Look for changes in signal quality, using the Look for changes in signal quality, using the chart on the user details page.<br />
+			<img alt="WiFi Service Overview basic Troubleshooting Workflow" src="/servlet/servlet.FileDownload?file=01530000003FHP4" /></td>
+		</tr>
+	</tbody>
+</table>
+
+<p><a href="#GuestDeviceTS">Back to Top</a></p>
+
+<p><strong><a name="TSWiFiGuestDevice"></a>Troubleshooting with a WiFi guest with their device</strong></p>
+
+<table border="1" cellpadding="2" cellspacing="2" class="step-action">
+	<thead>
+		<tr>
+			<th colspan="1" rowspan="1">&nbsp;</th>
+			<th colspan="1" rowspan="1">&nbsp;</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+			<td colspan="1" rowspan="1">Obtain the Store SSID that the user is attempting to connect to. Check with the user for the store Site ID or the store address.</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+			<td colspan="1" rowspan="1"><strong>Note</strong>: Refer to <a href="#mozTocId377868"><strong>FAQ</strong></a> section for commonly asked questions.</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+			<td colspan="1" rowspan="1">If this is the first time the user is attempting the WiFi connection, the first step is to check user device security and configuration settings. Talk the user through a checklist of the proper security and configuration settings until you are sure that the device is set up appropriately.</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+			<td colspan="1" rowspan="1">Is the user connected to SSID for the site and can he open the browser of the device and attempt to browse the Internet?
+			<ul class="style23">
+				<li>If yes, did the captive portal page automatically open to the <strong>Terms &amp; Conditions</strong> page See <a href="#mozTocId377868"><strong>FAQ</strong></a> section for Slash Page/Terms Acceptance Page. Have the user select <strong>Accept</strong> at the bottom of the page and proceed to the desired website.</li>
+				<li>If no, ask the user to restart the browser and try again.</li>
+			</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+			<td colspan="1" rowspan="1">If the issue is not resolved, check to see if there are any open cases on the Transport. Inform the caller about the existing issue. Troubleshoot Primary transport equipment at the Site.</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><a href="#GuestDeviceTS">Back to Top</a></p>
+
+<p><strong><a name="NotSeeingService"></a>Troubleshooting Guest not Seeing any WiFi service with Device</strong></p>
+
+<table border="1" cellpadding="2" cellspacing="2" class="step-action">
+	<thead>
+		<tr>
+			<th colspan="1" rowspan="1">&nbsp;</th>
+			<th colspan="1" rowspan="1">&nbsp;</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+			<td colspan="1" rowspan="1">Make sure that the WiFi is turned ON in your device.</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+			<td colspan="1" rowspan="1">Look for a hardware switch or special function key on your laptop that can turn the wireless radio on or off -- it may have accidentally been turned off. Flip the switch or hit the function keys to test if this is the case. Also, sometimes the wireless radio may be disabled by power management settings on your laptop or your phone; fix this permanently by going to the Power Options for your device and changing the settings there so the wireless adapter won&#39;t be disabled by low battery triggers.</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+			<td colspan="1" rowspan="1">If you&#39;re using a USB wireless network adapter, make sure it&#39;s plugged in correctly. On smart phones, you should also check whether wireless is enabled in the phone&#39;s main settings.</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><a href="#GuestDeviceTS">Back to Top</a></p>
+
+<p><strong><a name="SlowWiFi"></a>Slow WiFi or dropped connections</strong></p>
+
+<ol>
+	<li>Check the signal strength on the device used by the patron.</li>
+	<li>If only 1-2 bars are showing, ask the patron to change his position closer to the IAP.</li>
+</ol>
+
+<p><strong><a name="Android"></a>Wi-Fi troubleshooting for Android phones</strong></p>
+
+<table border="1" cellpadding="2" cellspacing="2" class="step-action" style="width: 90%;">
+	<thead>
+		<tr>
+			<th colspan="1" rowspan="1">&nbsp;</th>
+			<th colspan="1" rowspan="1">&nbsp;</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td align="undefined" colspan="1" rowspan="1" valign="undefined">&nbsp;</td>
+			<td align="undefined" colspan="1" rowspan="1" valign="undefined"><span style="font-weight: bold;">Power off </span>- The first thing user should try is to power off the Android phone, remove the battery, leave the battery out for about 30 seconds, replace the battery, and power the phone back on.</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+			<td colspan="1" rowspan="1"><span style="font-weight: bold;">Power-cycle wireless</span>. Sometimes, the phone retains a previous IP address from another wireless connection before and applies it to the current wireless. That&#39;s fine if the address scheme is the same and there is no address conflict, but that is not usually the case.<br />
+			<br />
+			User can try turning off wireless and then turning it back on by following these steps:
+			<ol style="list-style-type: lower-alpha;">
+				<li>Tap the Menu button on your handset &gt;Tap Settings &gt;Tap Wireless and Network from within the Settings menu &gt;Tap Wi-Fi settings from the Wireless and Network menu</li>
+				<li>In the new screen, uncheck Wi-Fi to turn it off &gt;After Wi-Fi is turned off, tap the entry again to turn it back on</li>
+			</ol>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+			<td colspan="1" rowspan="1"><span style="font-weight: bold;">Forget the Network</span>. If the previous method does not work, you might need to have your Android device forget the network and then re-add it. Your Android device cannot forget a wireless network that is within range, so you will need to get out of range of the network and then do the following:
+			<ol style="list-style-type: lower-alpha;">
+				<li>Long press the listed network you want to forget &gt;Tap Forget Network.</li>
+				<li>Get back within range and wait for the network to automatically show up.</li>
+				<li>Your Android phone should have a new address and be working as you would expect.</li>
+			</ol>
+			</td>
+		</tr>
+		<tr>
+			<td align="undefined" colspan="1" rowspan="1" valign="undefined">&nbsp;</td>
+			<td align="undefined" colspan="1" rowspan="1" valign="undefined"><span style="font-weight: bold;">Wi-Fi Sleep Policy</span> - If you are having persistent Wi-Fi issues, you can set the Wi-Fi sleep policy to Never and see if your issues stop. With this policy set to Never, it will drain your battery faster, but it will also keep your Wi-Fi connected on a more consistent basis.</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><a href="#BasicTSTop">Back to Top</a></p>
+
+<h3><a name="hospitality_services"></a>Hospitality Service Support</h3>
+
+<p><strong>How to Identify AP-93 Site ID using the location for a guest </strong></p>
+
+<table border="1" cellpadding="2" cellspacing="2" class="step-action" style="width: 90%;">
+	<thead>
+		<tr>
+			<th colspan="1" rowspan="1">&nbsp;</th>
+			<th colspan="1" rowspan="1">&nbsp;</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td align="undefined" colspan="1" rowspan="1" valign="undefined">&nbsp;</td>
+			<td align="undefined" colspan="1" rowspan="1" valign="undefined">Log into <strong>AWMS.</strong></td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+			<td colspan="1" rowspan="1">Enter the <strong>Customer Store ID</strong> starting with the <strong>Company Prefix</strong> in the <strong>Search</strong> tab. <strong>Example</strong>: BWW48144<strong>. </strong>The APs will appear in the search results if they are installed.</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+			<td colspan="1" rowspan="1">Scroll to the right until you can view the <strong>Location</strong> column &gt;Identify the location information provided by the guest. If not available, match to the nearest room number. A floor plan may be available in the CRM to aid identifying the nearest AP-93.<strong> Note</strong>: Agents can scroll back to the left to check the APs Status.<br />
+			<img alt="WiFi Service Overview Location" src="/servlet/servlet.FileDownload?file=01530000003FHP9" /></td>
+		</tr>
+	</tbody>
+</table>
+
+<p><a href="#BasicTSTop">Back to Top</a></p>
+
+<h3><a name="rogue_services"></a>Rogue Service Support</h3>
+
+<p><strong>Rogue WiFi Customer Request Reclassifying a Device</strong></p>
+
+<p>On receiving an alert regarding an intrusion, customer will enter a ticket via the Customer Gateway to have the particular device reclassified. Create ticket on the Customer Gateway.</p>
+
+<p><span style="font-weight: bold;">Accessing the Ticket</span></p>
+
+<table border="1" cellpadding="2" cellspacing="2" class="step-action">
+	<thead>
+		<tr>
+			<th colspan="1" rowspan="1">&nbsp;</th>
+			<th colspan="1" rowspan="1">&nbsp;</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+			<td colspan="1" rowspan="1">Access the CRM ticket.</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+			<td colspan="1" rowspan="1">Identify the Rogue site.</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+			<td colspan="1" rowspan="1">Save and close the ticket.</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><strong>Rogue WiFi - Reclassifying a Device</strong></p>
+
+<table border="1" cellpadding="2" cellspacing="2" class="step-action">
+	<thead>
+		<tr>
+			<th colspan="1" rowspan="1">&nbsp;</th>
+			<th colspan="1" rowspan="1">&nbsp;</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+			<td colspan="1" rowspan="1"><strong>Access CRM Ticket</strong>. Log into <strong>CRM</strong> when a <strong>Rogue mitigation call</strong> is received to access the ticket that was created</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+			<td colspan="1" rowspan="1">Go to the <strong>VSAT Call Center Work List</strong>.</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+			<td colspan="1" rowspan="1">Click on the <strong>Work Case &gt; Worklist Summary &gt;</strong> click the Case link (under URL column) to open.<br />
+			<img alt="WiFi Service Overview Worklist Summary" src="/servlet/servlet.FileDownload?file=01530000003FHPE" /></td>
+		</tr>
+	</tbody>
+</table>
+
+<p><a href="#BasicTSTop">Back to Top</a></p>
+
+<h3><a name="SSID"></a>SSID / Passphrase Changes</h3>
+
+<p><strong><a target="_blank"><strong>Process a SSID/Passphrase Change Ticket</strong></a></strong></p>
+
+<ul>
+	<li>Requesting information on a recent passphrase change.</li>
+	<li>Requesting a reset of the passphrase.</li>
+</ul>
+
+<p style="font-weight: bold;">Verifying Customer Created a ENGGR case for SSID/Passphrase Change</p>
+
+<table border="1" cellpadding="2" cellspacing="2" class="step-action" style="width: 90%;">
+	<thead>
+		<tr>
+			<th colspan="1" rowspan="1">&nbsp;</th>
+			<th colspan="1" rowspan="1">&nbsp;</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+			<td colspan="1" rowspan="1">Log into CRM &gt;Go to the <strong>VSAT Call Center Work List</strong> &gt;Click on the <strong>Work Case URL</strong>.</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+			<td colspan="1" rowspan="1">Verify in the customer&#39;s request that it contains the new values for the <strong>SSID/Passphrase</strong> and <strong>Swap Date</strong> in the <strong>Problem Description</strong>.<br />
+			<img alt="WiFi Service Overview SSID Passphrase" src="/servlet/servlet.FileDownload?file=01530000003FHPT" /></td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+			<td colspan="1" rowspan="1">Update the following fields:
+			<ul>
+				<li><strong>Problem Type:</strong>Request SSID</li>
+				<li><strong>Product</strong>:SSID</li>
+				<li><strong>Case Type</strong>:Problem</li>
+				<li><strong>Priority:</strong>High</li>
+				<li><strong>Case Status:</strong>Open Escalated</li>
+				<li><strong>Provider Group</strong>:Sustaining Network Engineering</li>
+			</ul>
+			</td>
+		</tr>
+		<tr>
+			<td align="undefined" colspan="1" rowspan="1" valign="undefined">&nbsp;</td>
+			<td align="undefined" colspan="1" rowspan="1" valign="undefined">The primary engineer for the network should auto default, however if it doesn&#39;t, select the correct engineer from the dropdown. Information about the primary engineer can be obtained on the <strong>Employee Subscription</strong> tab.
+			<ul>
+				<li>Case will be closed by the assigned Network Engineer.</li>
+				<li>New SSID and Passphrase will be updated in Customer CRM by Network Engineer.</li>
+				<li>Customer will be notified of SSID/Passphrase change via Auto-Email Notification.</li>
+				<li>There will be a 48 hour overlap in the old and new authentication.</li>
+			</ul>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><strong>VerifyingCreation of a Remote case for the Retrieval of a Lost Passphrase</strong></p>
+
+<table border="1" cellpadding="2" cellspacing="2" class="step-action" style="width: 90%;">
+	<thead>
+		<tr>
+			<th colspan="1" rowspan="1">&nbsp;</th>
+			<th colspan="1" rowspan="1">&nbsp;</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+			<td colspan="1" rowspan="1">Log into CRM &gt;Go to the <strong>VSAT Call Center Work List</strong> &gt; Click on the <strong>Work Case URL</strong>.</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+			<td colspan="1" rowspan="1">Navigate to the company screen for that particular ticket by clicking on the search icon next to the <strong>Company ID</strong> on the Case page.</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+			<td colspan="1" rowspan="1">Once the main information page is opened, navigate to the <strong>Notes tab &gt; Notes Summary </strong>to locate the latest SSID data sheet attachment.
+			<ul>
+				<li>Add a note to the case with the SSID and Passphrase information.</li>
+				<li>Close the ticket.</li>
+			</ul>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>*If the ticket is create via web. If the customer calls with passphrase request, follow standard operation procedures.</p>
+
+<p><a href="#BasicTSTop">Back to Top</a></p>
+</div>
+
+<div class="content2015">
+<h2><a class="mozTocH2" name="mozTocId238083"></a><a class="mozTocH2" name="CustSpecTop"></a>Customer Specific Wi-Fi Support</h2>
+
+<table class="miniTOC">
+	<tbody>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1"><a href="#CSServiceId">Service Identification</a><br />
+			<a href="#CSSSID">Customer Specific SSID</a><br />
+			<a href="#CSProcesses">Customer Specific Processes</a></td>
+		</tr>
+	</tbody>
+</table>
+
+<h3><a name="CSServiceId"></a>ServiceIdentification</h3>
+
+<table border="1" cellpadding="2" cellspacing="2" style="text-align: left; width: 60%;">
+	<tbody>
+		<tr>
+			<td colspan="1" rowspan="1" style="width: 30%;"><strong>Customers</strong></td>
+			<td colspan="1" rowspan="1" style="width: 30%;" valign="top"><strong>Service</strong></td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1" valign="top">CTR, OKB, DNY, BKC, BKZ, CAR, BVM, FEMA, NSD, BED</td>
+			<td colspan="1" rowspan="1" valign="top">WiFi 1.0 services</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">TJX, FRG, RIT, FNG</td>
+			<td colspan="1" rowspan="1" valign="top">WiFi 2.0 services<br />
+			<strong>Note:</strong> WiFi 2.0 specific customers may be in Pilot phase with a separate AWMS server.</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1" valign="top">BWI</td>
+			<td colspan="1" rowspan="1" valign="top">Hospitality WiFi services</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1" valign="top">Guests at the following locations:<br />
+			CTR, DNY, BKC, BKZ, BEH, BVM, BWI, TJX, FRG, RIT</td>
+			<td colspan="1" rowspan="1" valign="top">WiFi Add-on Services or Guest services</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><a href="#CustSpecTop">Back to Top</a></p>
+
+<h3><strong><a name="CSSSID"></a>Customer SpecificSSID</strong></h3>
+
+<table border="1" cellpadding="2" cellspacing="2" style="text-align: left; width: 50%;">
+	<tbody>
+		<tr>
+			<td colspan="1" rowspan="1"><strong>Customer</strong></td>
+			<td colspan="1" rowspan="1"><strong>SSID</strong></td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1"><a target="_blank">TJMaxx Sites</a></td>
+			<td colspan="1" rowspan="1">HomeGoods-Guest-WIFI or TJMax-Guest-WiFi</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1"><span style="text-align: center;">Best Western Sites</span></td>
+			<td colspan="1" rowspan="1"><span style="text-align: center;">BW-Guest-WIFI</span></td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1"><span style="text-align: center;">Denny&#39;s</span></td>
+			<td colspan="1" rowspan="1"><span style="text-align: center;">Denny&#39;s-Guest-WIFI</span></td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1"><span style="text-align: center;">Burger King</span></td>
+			<td colspan="1" rowspan="1"><span style="text-align: center;">BK-Guest-WIFI</span></td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1"><span style="text-align: center;">BevMo</span></td>
+			<td colspan="1" rowspan="1"><span style="text-align: center;">BVM-ENT-WIFI and BVM-GUEST-WIFI</span></td>
+		</tr>
+	</tbody>
+</table>
+
+<h3><a name="CSProcesses"></a>Customer Specific Processes</h3>
+
+<p><strong><strong><a name="Best_Wester"></a>Best Western</strong></strong></p>
+
+<p><strong><a target="_blank"><strong>Hospitality Guest WiFi Services (Aruba) for Best Western</strong></a></strong></p>
+
+<ul>
+	<li>DHCP Configuration</li>
+	<li>Install Support</li>
+</ul>
+
+<p><strong><a name="BKC"></a>BKC</strong></p>
+<a href="#BKCSpecialProjectsDispatch">Creating a Special Projects Dispatch</a><br />
+<a href="#BKCRemovingAp">Removing AP from AWMS and Controller</a><br />
+<a href="#BKCEligibility">Wi-Fi Eligibility</a><br />
+<a href="#BKCSiteNotCommissioned">Sites Not yet Commissioned</a><br />
+<a href="#BKCExceptionHandlling">Exception Handling</a>
+
+<p><strong>BKC Depot Maintenance Process for WiFi 1.0 Services</strong></p>
+
+<p><strong>Creating a Special Projects Dispatch in CRM</strong></p>
+
+<table border="1" cellpadding="2" cellspacing="2" class="step-action" style="width: 90%;">
+	<thead>
+		<tr>
+			<th colspan="1" rowspan="1">&nbsp;</th>
+			<th colspan="1" rowspan="1">&nbsp;</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+			<td colspan="1" rowspan="1">Identify that the site is a <strong>BKC Site</strong> and that it has Aruba WiFi Services.
+			<ul>
+				<li><strong>BKC</strong> should be the first three letters for the SAN.</li>
+				<li><strong>Site Type</strong> will indicate <strong>WIFI</strong>.</li>
+			</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+			<td colspan="1" rowspan="1">Check in the <strong>Service Level</strong> tab to verify if the site has <strong>Depot Maintenance</strong>.<strong>Note</strong>: Follow standard dispatch procedures if &quot;Depot Maintenance&quot; is not listed under <strong>Service Level</strong>.</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+			<td colspan="1" rowspan="1">Go to the <strong>Cust. Ticket #</strong> in the <strong>Customer Information</strong> section &gt;Add &quot;<strong>PJ4738::</strong>&quot;: If the <strong>Cust. Ticket #</strong> field is not yet populated.<strong>Note</strong>: This number MUST be included with two colons after the 8 to prevent <strong>WWTS</strong> from sending a technician to the site.</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+			<td colspan="1" rowspan="1">Update all items listed in <strong>RED</strong>.<strong>Note</strong>: It is extremely important to have the <strong>Case Type: Special Project Dispatch</strong>. If this case type is not selected, the request will not be fulfilled correctly.</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+			<td colspan="1" rowspan="1"><br />
+			Use the following template in the <strong>Description</strong> field: <em>&quot;BKC advanced shipment requirement Project PJ4738: Process per SOW192. Site requires the shipment of an advanced replacement WiFi AP-93 device to be shipped UPS Over Night Next Day delivery from WWTS FRU stock in Louisville, KY. Shipment must be made same day as ticket issuance if received by WWTS by 3PM eastern time. Ship next business day if ticket received later. Ship quantity 1 of Hughes part number AE-1502992-0001. Contact WWTS Logistics with any issues (1-800-374-0002 Option 5, Option 1). Logistics must record part number and serial number of device shipped in ticket.&quot;</em></td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+			<td colspan="1" rowspan="1">Save the case &gt;Click the <strong>Dispatch</strong> button.</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><strong><a name="BKCRemovingAp"></a>Removing the AP from AWMS and the Controller - </strong>Actions Performed by a TL/MOD/ESC Control Desk</p>
+
+<table border="1" cellpadding="2" cellspacing="2" class="step-action" style="width: 90%;">
+	<thead>
+		<tr>
+			<th colspan="1" rowspan="1">&nbsp;</th>
+			<th colspan="1" rowspan="1">&nbsp;</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td align="undefined" colspan="1" rowspan="1" valign="undefined">&nbsp;</td>
+			<td align="undefined" colspan="1" rowspan="1" valign="undefined">Before the Special Project Dispatch is initiated, the TL/MOD/ESC Control Desk must disassociate the AP from the AWMS and the Controller. Validate that the site has Depot Maintenance in the CRM by reviewing the previous steps.</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+			<td colspan="1" rowspan="1">Log into AWMS &gt;Locate the site from the search field in the upper right corner of <strong>AWMS</strong>.</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+			<td colspan="1" rowspan="1">Locate the correct AP &gt; Select <strong>Modify Devices</strong>.</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+			<td colspan="1" rowspan="1">Check the box of the specific <strong>AP device</strong> to be removed from the <strong>AWMS</strong> &gt;Click the <strong>Delete</strong> button next to <strong>Delete selected devices:</strong><br />
+			<img alt="WiFi Service Overview Delete Selected Devices" src="/servlet/servlet.FileDownload?file=01530000003FHPY" /><br />
+			Click the <strong>Apply Changes Now</strong> button.<strong>Note</strong>: A confirmation of the deletion will be listed in green font.</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+			<td colspan="1" rowspan="1">Go to the Aruba Controller application by following the instruction provided by your supervisor. Select the <strong>Monitoring</strong> tab &gt; Select <strong>All Access Points</strong> on the side menu of the <strong>Controller</strong> application.<br />
+			<strong>Note</strong>: This will give add a search option at the top. Make sure that the <strong>AP Group</strong> is set to <strong>Any</strong>.</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+			<td colspan="1" rowspan="1">Identify the correct <strong>AP by SAN </strong>in the <strong>Name</strong> column &gt; Click the <strong>Clear</strong> button under the <strong>Actions</strong> column &gt;Click the <strong>OK</strong> button on the confirmation pop-up screen.<strong>The AP will then be removed from the list.</strong> <img alt="WiFi Service Overview Global APs" src="/servlet/servlet.FileDownload?file=01530000003FHPn" /><br />
+			<strong>Note</strong>: An error message may pop up in the Controller. Click the OK button - the application will still complete the removal process.</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+			<td colspan="1" rowspan="1">Verify that the <strong>Special Project Dispatch</strong> was created properly in CRM after the AP has been removed from AWMS and the Controller.</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><a href="#BKC">Back to Top</a></p>
+
+<p><strong><strong><a name="BKCEligibility"></a>Wi-Fi Eligibility</strong></strong></p>
+
+<p>If a BKC site has a pop-up in CRM indicating that it is not eligible for Wi-Fi, please inform the store manager that Hughes has escalated the issue to BKC Restaurant Operations Management team. **ONLY provide this information to the store manager, this is not intended for guests of the BKC.</p>
+
+<p><strong>NOTE: Read the pop-up completely!!!</strong></p>
+
+<p><strong>Sites Listed as Not yet Commissioned</strong></p>
+
+<p>Check the scheduled date on the SO of when the Wi-Fi will be installed. **Be sure that the site is actually not installed by reviewing the primary transport service order and photographs of the site. In some cases the Site ID of the appliance will reflect Not Yet Commissioned, but by checking the primary transports SO you will find the Wi-Fi was added to the site.</p>
+
+<p><span style="font-weight: bold;"><a name="BKCSiteNotCommissioned"></a>Verifying a Site listed as Not Commissioned</span></p>
+
+<table border="1" cellpadding="2" cellspacing="2" class="step-action" style="width: 90%;">
+	<thead>
+		<tr>
+			<th colspan="1" rowspan="1">&nbsp;</th>
+			<th colspan="1" rowspan="1">&nbsp;</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td align="undefined" colspan="1" rowspan="1" valign="undefined">&nbsp;</td>
+			<td align="undefined" colspan="1" rowspan="1" valign="undefined">Check the scheduled date on the SO of when the Wi-Fi will be installed. Ensure site is actually not installed by reviewing the primary transport service order and photographs of the site. In some cases the Site ID of the appliance will reflect Not Yet Commissioned, but by checking the primary transports SO you will find the Wi-Fi was added to the site.</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+			<td colspan="1" rowspan="1">Open a case on the Site ID for the appliance &gt; Select the <strong>Non-Repair FSO</strong> button in the Site Links section &gt; Choose the <strong>Service Order ID </strong>hyperlink.</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+			<td colspan="1" rowspan="1">When the <strong>Service Order Details</strong> pop up, review the tentative and confirm schedule dates to provide the time and date when the installation of the Wi-Fi will take place.The dates are also listed at bottom in the<strong> Service Order Activities</strong>:</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><strong>Possible script to use:</strong><em>Your restaurant has not received Wi-Fi because your interned connection needs servicing before Wi-Fi can be installed. Your connection is scheduled for service on MMDDYYYY and your Wi-Fi is scheduled for install on MMDDYYYY</em>.</p>
+
+<p><a href="#BKC">Back to Top</a></p>
+<strong><a name="BKCExceptionHandlling"></a>Exception Handling</strong>
+
+<table border="1" cellpadding="2" cellspacing="2" class="step-action" style="width: 90%;">
+	<thead>
+		<tr>
+			<th colspan="1" rowspan="1">&nbsp;</th>
+			<th colspan="1" rowspan="1">&nbsp;</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+			<td colspan="1" rowspan="1">In a site is listed as Not yet commissioned but the service order for the Wi-Fi installation is canceled,(And the site had no pop-up). Check to see if the order was canceled due to needing a speed upgrade on the DSL by going to the FSO &gt; <strong>Non Repair FSO.</strong></td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+			<td colspan="1" rowspan="1">Select the<strong> Service Order ID</strong> &gt; Review the order information <strong>Notes</strong> section</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">&nbsp;</td>
+			<td colspan="1" rowspan="1">If the order was canceled due to a speed upgrade, use the following script:<br />
+			<em>Your restaurant has not received Wi-Fi because your internet connection needs servicing before Wi-Fi can be installed. You will be contacted by a technician when the servicing of the line has been completed.</em></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+<br />
+<a href="#CustSpecTop">Back to Top</a>
+
+<div class="content2015">
+<h2><a class="mozTocH2" name="mozTocId377868"></a>FAQ</h2>
+
+<table border="1" cellpadding="2" cellspacing="2" style="text-align: left; width: 90%;">
+	<tbody>
+		<tr>
+			<td colspan="1" rowspan="1" style="text-align: center; width: 26%;">Question</td>
+			<td colspan="1" rowspan="1">Answer</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1" style="text-align: center; width: 26%;"><strong>What is the password for the WiFi?</strong></td>
+			<td colspan="1" rowspan="1">There is NO password required.</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1" style="text-align: center; width: 26%;"><strong>What should appear when the browser is started?</strong></td>
+			<td colspan="1" rowspan="1">Launching any web browser and trying to reach any URL will first redirect to a Landing or authentication page.
+			<ul>
+				<li>Thelanding page, splash page, or theterms and conditions page for any WiFi 2.0 customer is viewable via <a href="https://hnslanding.hughes.net/%3ccompanyID" target="_blank">https://hnslanding.hughes.net/&lt;companyID</a>&gt;.</li>
+				<li>For example, Ferguson&#39;s WiFi users will see the landing page like <a href="https://hnslanding.hughes.net/frg/" target="_blank">https://hnslanding.hughes.net/frg/</a></li>
+				<li><strong>Example of HomeGoods</strong><br />
+				<img alt="WIFi Service Overview Homegoods" src="/servlet/servlet.FileDownload?file=01530000003FHPx" /></li>
+				<li><strong>Examples of Ferguson </strong><br />
+				<img alt="WiFi Service Overview Ferguson" src="/servlet/servlet.FileDownload?file=01530000003FHQ2" /></li>
+			</ul>
+
+			<p>User is required to accept terms and conditions.</p>
+
+			<ul>
+				<li><strong>Example of HomeGoods</strong><br />
+				<img alt="WiFi Service Overview Homegoods Authenticated" src="/servlet/servlet.FileDownload?file=01530000003FHQC" /></li>
+				<li><strong>Example of Ferguson </strong><br />
+				<img alt="WiFi Service Overview Ferguson Authenticated" src="/servlet/servlet.FileDownload?file=01530000003FHQM" /></li>
+			</ul>
+
+			<p>User is then automatically directed to www.homegoods.com.</p>
+
+			<ul>
+				<li><strong>Example of HomeGoods</strong><br />
+				<img alt="WiFi Service Overview Homegoods Live" src="/servlet/servlet.FileDownload?file=01530000003FHQR" /></li>
+				<li><strong>Example of Ferguson</strong><br />
+				<img alt="WiFi Service Overview Ferguson Live" src="/servlet/servlet.FileDownload?file=01530000003FHQW" /></li>
+				<li><strong>Example of Best Western </strong><br />
+				<img alt="WIFi Service Overview Best Western Authenticated" src="/servlet/servlet.FileDownload?file=01530000003FHQb" /><br />
+				<img alt="WiFi Service Overview Best Western Live" src="/servlet/servlet.FileDownload?file=01530000003FHQl" /></li>
+			</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1" style="text-align: center; width: 26%;"><strong>What is the leave-behind template</strong></td>
+			<td colspan="1" rowspan="1"><img alt="WiFi Service Overview Leave Behind Template" src="/servlet/servlet.FileDownload?file=01530000003FHQq" /></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div class="content2015">
+<h2><a class="mozTocH2" name="mozTocId296908"></a><a class="mozTocH2" name="revision"></a>Revision History</h2>
+
+<table border="1" cellpadding="2" cellspacing="2" style="text-align: left;">
+	<tbody>
+		<tr>
+			<td colspan="1" rowspan="1">Date</td>
+			<td colspan="1" rowspan="1">Revision #</td>
+			<td colspan="1" rowspan="1">Approved By</td>
+			<td colspan="1" rowspan="1">Summary of Changes</td>
+		</tr>
+		<tr>
+			<td align="undefined" colspan="1" rowspan="1" valign="undefined">05 August 2015</td>
+			<td align="undefined" colspan="1" rowspan="1" valign="undefined">2</td>
+			<td align="undefined" colspan="1" rowspan="1" valign="undefined">MS</td>
+			<td align="undefined" colspan="1" rowspan="1" valign="undefined">SE - removed AWMS and Device information creating new KBs for each leaving the above Wi-Fi overview.</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">24 July 2015</td>
+			<td colspan="1" rowspan="1">1</td>
+			<td colspan="1" rowspan="1">MS</td>
+			<td colspan="1" rowspan="1">New KB Creation.</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>This publication and its contents are proprietary to Hughes Network Systems, LLC, an EchoStar company. No part of this publication may be reproduced in any form or by any means without written permission.</p>
+
+<p>Copyright&copy; 2001-2015 Hughes Network Systems, LLC, an EchoStar company.</p>
+
+<p>All information is subject to change.</p>
+</div>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;</div>
